@@ -1,0 +1,27 @@
+{% extends 'base.back.html.twig' %}
+
+{% block title %}Home Repair - Dashboard{% endblock %}
+
+
+{% block content %}
+    {% form_theme formC 'bootstrap_4_layout.html.twig' %}
+    <div class="templatemo-content-container">
+        <div class="templatemo-content-widget white-bg">
+
+            <h2 class="margin-bottom-10">Ajouter un User</h2>
+
+            {{form_start(formC,{'attr' :{'novalidate':'novalidate'}})}}
+
+            {{ form_end(formC) }}
+
+        </div>
+    </div>
+
+
+
+{% endblock %}
+
+
+
+
+
